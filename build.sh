@@ -1,5 +1,5 @@
-#!/bin/bash
+#!/bin/bash -e
 
-source ./docker-info.sh
+source config.sh
 
 docker build -t ${image_name}:${version} .
