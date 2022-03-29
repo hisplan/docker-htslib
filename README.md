@@ -5,7 +5,7 @@ Dockerized HTSlib (bgzip, htsfile, and tabix utilities)
 ## How to Run
 
 ```bash
-$ docker run --rm -it htslib:1.9
+$ docker run --rm -it htslib:1.15
 ```
 
 ## Build Container Image

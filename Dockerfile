@@ -1,10 +1,10 @@
 FROM centos:7
 
 LABEL maintainer="Jaeyoung Chun (chunj@mskcc.org)" \
-      version.htslib="1.9" \
-      source.htslib="https://github.com/samtools/htslib/releases/tag/1.9"
+      version.htslib="1.15" \
+      source.htslib="https://github.com/samtools/htslib/releases/tag/1.15"
 
-ENV HTSLIB_VERSION 1.9
+ENV HTSLIB_VERSION 1.15
 
 RUN yum install -y wget bzip2 autoconf automake make gcc zlib-devel bzip2-devel xz-devel curl-devel openssl-devel
 
